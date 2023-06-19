@@ -16,7 +16,7 @@ int main(void)
 	n = 'q';
 	o = 'e';
 	while
-		(m != n && m != o) {
+		((m != n && m != o) && m <= 'z') {
 			putchar(m);
 			m++;
 		}
