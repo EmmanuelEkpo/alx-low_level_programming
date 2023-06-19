@@ -6,17 +6,16 @@
 
 int main(void)
 {
-	char m;
+	char m = 'a';
 
-	char n;
+	char n = 'q';
 
-	char o;
+	char o = 'e';
 
-	m = 'a';
-	n = 'q';
-	o = 'e';
+	char p = 'z';
+
 	while
-		((m != n && m != o) && m <= 'z') {
+		((m != n || m != o) && m <= p) {
 			putchar(m);
 			m++;
 		}
