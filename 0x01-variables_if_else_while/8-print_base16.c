@@ -8,13 +8,13 @@ int main(void)
 {
 	int y = 0;
 
+	char x = 'a';
+
 	while (y < 10)
 	{
 		putchar(y + '0');
 		y++;
 	}
-
-	char x = 'a';
 
 	while (x <= 'f')
 	{
