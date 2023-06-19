@@ -12,13 +12,12 @@ int main(void)
 
 	char o;
 
-	m = 'a' <= 'z';
+	m = 'a'++ <= 'z';
 	n = 'q';
 	o = 'e';
 	while
 		(m != n && m != o) {
 			putchar(m);
-			m++;
 		}
 	putchar('\n');
 	return (0);
