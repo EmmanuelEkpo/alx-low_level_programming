@@ -15,7 +15,7 @@ int main(void)
 	char p = 'z';
 
 	while
-		((m != n || m != o) && m <= p) {
+		((m != n && m != o) && m <= p) {
 			putchar(m);
 			m++;
 		}
