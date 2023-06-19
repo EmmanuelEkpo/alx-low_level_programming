@@ -10,11 +10,12 @@ int main(void)
 
 	int y = 10;
 
-	if (x < y)
-	{
-		printf("%d", x);
-		x++;
-	}
+	while
+		(x < y)
+		{
+			printf("%d", x);
+			x++;
+		}
 	putchar('\n');
 	return (0);
 }
