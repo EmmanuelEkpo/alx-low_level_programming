@@ -21,6 +21,5 @@ char *create_array(unsigned int size, char c)
 	}
 	if (size == 0 || pointer2array == NULL)
 		return (NULL);
-
 	return (pointer2array);
 }
