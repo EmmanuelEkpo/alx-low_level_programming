@@ -21,8 +21,12 @@ int main(void)
 			{
 				putchar(digit1);
 				putchar(digit2);
-				putchar(comma);
-				putchar(' ');
+
+				if (digit1 != 56 || digit2 != 57)
+				{
+					putchar(comma);
+					putchar(' ');
+				}
 			}
 		}
 	}
